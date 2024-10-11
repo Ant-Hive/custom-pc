@@ -96,12 +96,13 @@ function Header() {
             </nav>
           </>
         )}
-
-        <img
-          src="https://www.citypng.com/public/uploads/preview/hd-shopping-cart-white-logo-icon-transparent-png-701751694973936amdcratijm.png"
-          alt=""
-          className="w-[30px] ml-5"
-        />
+        <Link href={"/my/cart"}>
+          <img
+            src="https://www.citypng.com/public/uploads/preview/hd-shopping-cart-white-logo-icon-transparent-png-701751694973936amdcratijm.png"
+            alt=""
+            className="w-[30px] ml-5"
+          />
+        </Link>
       </div>
     </header>
   );
